@@ -1,0 +1,323 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav-bar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:60px;
+    width:140px;
+}
+
+.logo{
+    background-image: url("/Amazon Clone Project/Images/Amazon_logo.jpg") ;
+    background-size:cover;
+    height:50px;
+    width:130px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/*box2*/
+.add-first{
+    color:#cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+}
+.nav-address{
+    width:70px;
+}
+.add-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*box3 search bar*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width:700px;
+    height:40px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    font-size: 1.2rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: orange;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/*box4 language*/
+.nav-language{
+    display: flex;
+    width:80px;
+    height:35px;
+    justify-content: space-between;
+    align-items: end;
+}
+#lang-logo{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: end;
+}
+a{
+    text-decoration: none;
+}
+a::after{
+    text-decoration: none;
+}
+
+/*box4*/
+.nav-sign-in-account{
+    width:125px;
+    height:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#nav-sign-in{
+    font-size: 0.8rem;
+    padding-left:5px;
+}
+.nav-select-account-list{
+    background-color: #0f1111;
+    color:white;
+    border:none;
+    font-weight: bold;
+}
+
+/*box5*/
+.returns-and-order{
+    width:75px;
+    height:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#returns{
+    font-size: 0.8rem;
+}
+#order{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*box6*/
+.cart{
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart-logo{
+    width: 50px;
+}
+
+/* panel section */
+.panel{
+    width:100%;
+    height:39px;
+    background-color: #232f3e;
+    display: flex;
+}
+.panel-all{
+    width:58px;
+    height:35px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-options{
+    width:100%;
+    height:35px;
+    display: flex;
+    align-items: center;
+
+}
+.panel-text{
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.85 rem;
+}
+.panel-deals{
+    width:250px;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+/*----MAIN-----*/
+/* HERO SECTION  */
+.hero-section{
+    background-image: url("/Amazon Clone Project/Images/hero_image.jpg");
+    height:350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: #f3f3f3;
+    height:40px;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+#hero-message-anchor{
+    color:#007185;
+}
+
+/* box section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #4f00c1;
+}
+.box{
+    height:375px;
+    width:22%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 10px;
+}
+.box-img{
+    background-size:cover;
+    height:300px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.85rem;
+}
+#box-see-more{
+    color:#0d788b;
+}
+
+/* phones accessories */
+.phones-accessories{
+    background-color: #4f00c1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+.phones-box{
+    display: flex;
+}
+.phones-accessories-img-box{
+    width:218px;
+    height:250px;
+
+}
+.image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:200px;
+    margin-top: 30px;
+}
+.phones-text{
+    font-size: 1.8rem;
+    color:white;
+}
+
+/* footer */
+.foot-panel1{
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.panel-2text{
+    color:white;
+}
+#panel-para{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.panel-a{
+    font-size: 0.75rem;
+}
+ul{
+    list-style-type: none;
+}
+.panel-size{
+    margin-left: 20px;
+    margin-right: 75px;
+}
+
+/* foot image */
+.foot-img{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.amazon-foot-img{
+    height:80px;
+    width:250px;
+    background-size: cover;
+}
+.foot-copyright{
+    background-color: #232f3e;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

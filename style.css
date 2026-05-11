@@ -19,7 +19,7 @@
 }
 
 .logo{
-    background-image: url("/Amazon Clone Project/Images/Amazon_logo.jpg") ;
+    background-image: url("Images/Amazon_logo.jpg") ;
     background-size:cover;
     height:50px;
     width:130px;
@@ -186,7 +186,7 @@ a::after{
 /*----MAIN-----*/
 /* HERO SECTION  */
 .hero-section{
-    background-image: url("/Amazon Clone Project/Images/hero_image.jpg");
+    background-image: url("Images/hero_image.jpg");
     height:350px;
     background-size: cover;
     display: flex;
@@ -278,9 +278,11 @@ a::after{
 .foot-panel2{
     background-color: #232f3e;
     display: flex;
-    justify-content: center;
-    padding-top: 60px;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 30px;
     padding-bottom: 30px;
+    gap: 20px;
 }
 .panel-2text{
     color:white;
@@ -298,6 +300,48 @@ ul{
 .panel-size{
     margin-left: 20px;
     margin-right: 75px;
+}
+
+/* Footer attribution + disclaimer */
+.foot-panel2-left{
+    color: white;
+    max-width: 360px;
+    margin-left: 40px;
+}
+.foot-attribution{
+    color: white;
+    max-width: 100%;
+    margin-left: 40px;
+}
+.foot-panel2-text{
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    color: white;
+}
+.foot-disclaimer{
+    color: #ffffff;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    margin-top: 0;
+}
+
+/* new layout for footer columns */
+.foot-columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 30px 10px 30px;
+    gap: 20px;
+}
+
+@media (max-width: 900px){
+    .foot-columns{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .foot-panel2-text{
+        font-size: 1.3rem;
+    }
 }
 
 /* foot image */
